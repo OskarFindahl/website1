@@ -1,0 +1,15 @@
+.header-logo {
+  background-color: rgb(141, 206, 192);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  max-height: 50px;
+}
+
+.header-nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  align-items: flex-end;
+}
