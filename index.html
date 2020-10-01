@@ -4,8 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3D4U</title>
-    <link rel="shortcut icon" href="LogoMakr_15wtr3.png" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/pictures/LogoMakr_15wtr3.png" />
+    <link rel="stylesheet" href="/sass/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Nav bar -->
@@ -19,10 +23,24 @@
             <div>
               <div>
                 <ul>
-                  <li><a href="#">Printing</a></li>
-                  <li><a href="#">Sketch To Print</a></li>
-                  <li><a href="#">Product Development</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li>
+                    <a href="#" aria-label="link to printing section"
+                      >Printing</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" aria-label="link to sketch to print section"
+                      >Sketch To Print</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" aria-label="link to product development section"
+                      >Product Development</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" aria-label="link to contact section">Contact</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -30,29 +48,43 @@
         </div>
 
         <h1>3D4U</h1>
-        <img class="logo" src="/LogoMakr_15wtr3.png" alt="logo" />
+        <img
+          class="logo"
+          src="pictures/LogoMakr_15wtr3.png"
+          alt="Company logo"
+        />
       </div>
       <nav class="header-nav">
-        <a href="#">Printing</a>
-        <a href="#">Sketch to print</a>
-        <a href="#">Product Development</a>
-        <a href="#">Contact</a>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,500&display=swap"
-          rel="stylesheet"
-        />
+        <a href="#" aria-label="link to printing section">Printing</a>
+        <a href="#" aria-label="link to sketch to print section"
+          >Sketch to print</a
+        >
+        <a href="#" aria-label="link to product development section"
+          >Product Development</a
+        >
+        <a href="#" aria-label="link to contact section">Contact</a>
       </nav>
     </header>
 
     <!-- Title block -->
     <article class="wrapper">
       <header class="header-title">
-        <h1>Print your dream</h1>
+        <h1>Print Your Dream</h1>
         <p>
           With 3D4U you will go from dream to reality. Either with assisting
-          your existing product or design something completley new!
+          your existing product or design something completely new!
         </p>
       </header>
+
+      <!--Video -->
+      <section class="videoWrapper">
+        <iframe
+          width="869"
+          height="489"
+          src="https://www.youtube.com/embed/UdDMJnUWVkA?rel=0;&autoplay=1&mute=1&loop=1&playlist=UdDMJnUWVkA"
+          aria-label="Video showing a 3d printer in action"
+        ></iframe>
+      </section>
 
       <!-- Printing block-->
       <section class="printing">
@@ -73,10 +105,10 @@
           Send in your own sketch and get a professional CAD file and print.
         </p>
 
-        <h4>Quoatation within 2-3 days</h4>
+        <h4>Quotation within 2-3 days</h4>
 
         <p>
-          Add all messurments in mm and simple shapes = cheaper manufacturing.
+          Add all measurements in mm and simple shapes = cheaper manufacturing.
         </p>
       </section>
 
@@ -85,7 +117,7 @@
         <h2>Product Development</h2>
 
         <p>
-          Got an awesome ide? Get help with product development. From ide to
+          Got an awesome idea? Get help with product development. From idea to
           concept. Quick, easy and cheap!
         </p>
 
@@ -94,27 +126,45 @@
         <p>.</p>
       </section>
 
-      <!--Video -->
-      <section class="videoWrapper">
-        <iframe
-          width="869"
-          height="489"
-          src="https://www.youtube.com/embed/UdDMJnUWVkA?rel=0;&autoplay=1&mute=1&loop=1&playlist=UdDMJnUWVkA"
-        ></iframe>
-      </section>
-
       <!--pdf-->
       <section class="pdf">
-        <embed src="/Faktura.pdf" height="450px" width="300px" />
+        <embed
+          src="/Faktura.pdf"
+          height="450"
+          width="300"
+          aria-label="PDF with billing information"
+        />
       </section>
     </article>
 
+    <!--Footer-->
     <footer>
-      <ul>
-        <li>Copyright 2020</li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Tictoc</a></li>
+      <ul class="footer-list">
+        <li>
+          <a href="#"
+            ><img
+              class="facebook"
+              src="pictures/LogoMakr_8Uhd5s.png"
+              alt="link to facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              class="twitter"
+              src="pictures/LogoMakr_3U1lNX.png"
+              alt="link to twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              class="instagram"
+              src="pictures/LogoMakr_44FqzR.png"
+              alt="link to instagram"
+          /></a>
+        </li>
+        <li><h2>Copyright 2020</h2></li>
       </ul>
     </footer>
   </body>
