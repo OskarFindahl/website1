@@ -74,12 +74,6 @@
   transform: rotate(-60deg);
 }
 
-/* Rotate On Hover When Checked */
-// .menu-wrap .toggler:checked:hover + .hamburger > div {
-//   transform: rotate(0deg);
-//   top: -10px;
-// }
-
 /* Show Menu */
 .menu-wrap .toggler:checked ~ .menu {
   visibility: visible;
